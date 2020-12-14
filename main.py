@@ -123,12 +123,12 @@ pdf.rect(0,250,300,50,"F")
 pdf.set_font("Arial",size=12)
 pdf.set_xy(8,258)
 pdf.cell(0,5,'Stephen Hawes',0,2)
-pdf.cell(0,5,'458 Broadway',0,2)
-pdf.cell(0,5,'Floor 3',0,2)
-pdf.cell(0,5,'Somerville, MA 02145',0,2)
+pdf.cell(0,5,'addr',0,2)
+pdf.cell(0,5,'addr',0,2)
+pdf.cell(0,5,'addr',0,2)
 
-pdf.cell(0,5,'sphawes@gmail.com',0,2)
-pdf.cell(0,5,'860-754-7121',0,2)
+pdf.cell(0,5,'email',0,2)
+pdf.cell(0,5,'phone',0,2)
 
 #output
 pdf.output(filename + ".pdf")
